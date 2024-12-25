@@ -1,0 +1,50 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+go.work
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Binary output directory
+bin/
+dist/
+
+# Dependency directories (remove these if you prefer to version control your dependencies)
+vendor/
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# SQLite files (if you're using SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# MongoDB data directory (if you're running MongoDB locally)
+data/db/
